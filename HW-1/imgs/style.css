@@ -2,17 +2,26 @@
   background-color: #ccccff;
 }
 
-*body {
+body {
   txt-align: center;
+  color: #663300;
 }
 
-#hero-image {
+header {
   background-image: url("hero-image.jpg");
-  object-fit: cover;
-  width: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: fill;
+  width: 1000px;
   height: 400px;
+  color: #663300;
 }
 button {
+color: #663300;
+background-color: #ffffcc;
 width: 100px;
 height: 50px;
 }
