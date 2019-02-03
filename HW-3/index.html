@@ -12,8 +12,48 @@
 
   <body>
     <script src="./script.js"></script>
-    <div>
+    <h1>Introduction</h1>
+    <div id="intro">
+      <p>
+        Welcome to The Amazing Space Mall-Venture!
+        </p>
+        <br>
+        <hr>
+        <br>
+        <p>
+        In this interactive role-playing experience, you will take on the persona
+        of an intrepid Space Captain who is searching for the perfect gift for his
+        boss' birthday. Going bravely where, well, frankly all species have gone before,
+        you take to the neon-lit epicenter of commerce that is the Grand Galactic Mall.
+        What perils and thrills lie in the twists and turns of this realm of intergalactic retail?
+        One can only imagine.
+      </p>
       </div>
+      <br>
+      <div id="part1">
+        <p>
+          You have arrived at the Grand Galactic Mall. Where do you want to go
+          first? You try to think about what your boss would like for his birthday.
+          Does he like anything? You also notice that a gnawing hunger has taken hold since
+          you got here. Looks like you need to eat! There is a food court ahead, as well as
+          a holographic map showing the mall's catalogue of stores. Do you want to check the map first
+          and form a plan of action, or do you feel that it is more important to get something to eat first?
+          </p>
+        </div>
+        <br>
+        <div id="firstchoices">
+        <h3 id="choice1a">1. Check the map.</h2>
+        <br>
+        <h3 id="choice1b">2. Visit the Food Court.</h2>
+        </div>
+        <!-- I decided to test the DOM by changing the wording of a choice. -->
+        <!-- Don't you love it when games bother you and tell you what to do? -->
+        <!-- That was sarcasm, haha. -->
+        <script>
+        document.getElementById('choice1b').innerHTML = "1. Hey, listen! You should really get something to eat.";
+        </script>
+        <!-- This script element will most likely be later deleted with the command moved to the script.js document later. -->
+        <br>
     </body>
 
 </html>
