@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  color: #ccffff;
+  background-color: #660099;
+  padding: 2em;
+  margin: 50px;
+}
+
+#intro {
+  border: 1px solid #ccffcc;
+}
+
+hr {
+  border: 2px dashed #ccff99;
+}
