@@ -1,5 +1,5 @@
 # Taylor Pirre
-## Homework 2
+## Homework 3
 
 **Weekly progress:**
 I have the problem of wanting to finish an assignment and learn a lesson all in one sitting, which probably isn't good. I got up early and finished the assignment all in one day. This probably will not be a wise option going forward, but it seems to be working for now. I will try to readjust my work schedule for the next assignment.
