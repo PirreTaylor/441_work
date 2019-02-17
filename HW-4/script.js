@@ -1,22 +1,16 @@
 function getChoice1()
 {
-  var myChoice = document.getElementById("choice1").value;
-  var myQuestion = document.getElementById("question");
-  if(choice1 === "map")
+  var myChoice = document.getElementById("choice1").checked;
+  if(myChoice == true)
   {
-    document.getElementById("part1").style.display="none";
-    document.getElementById("choice1").style.display="none";
-    document.getElementById("button_submit").style.display="none";
-
+    document.getElementById("part1").innerHTML= "You chose to check the map first. There's a gift shop on the second floor by the food court. Why don't you go there after you eat?";
     document.getElementById("choice2").style.display="none";
     document.getElementById("btnSubmit2").style.display="none";
 
-
-    myQuestion.innerHTML = "";
   }
-  else if(choice1 === "food")
+  else if(myChoice == false)
   {
-      myQuestion.innerHTML = "You chose blue.  What is your favorite movie?";
+   document.getElementById("part1").innterHTML="You chose to get something to eat first. Life is a lot easier with food on the stomach. It looks like there is a gift shop not too far from the food court, too! How fortunate you are!";
   }
   else
   {
@@ -24,5 +18,13 @@ function getChoice1()
 }
 
 function getChoice2(){
-
+  {
+    var myChoice = document.getElementById("choice2").checked;
+    if(myChoice == true)
+    {
+      document.getElementById("part1").innerHTML= "You chose to get something to eat first. Life is a lot easier with food on the stomach. It looks like there is a gift shop not too far from the food court, too! How fortunate you are!";
+      document.getElementById("choice1").style.display="none";
+      document.getElementById("btnSubmit2").style.display="none";
+    }
+  }
 }
