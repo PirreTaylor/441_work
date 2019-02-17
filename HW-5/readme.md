@@ -7,7 +7,7 @@ the current assignment. Thankfully, I was able to figure both assignments out, b
 **What did/did not work, frustrations, and time spent:**
 One of the biggest challenges this week has been making sure that the additional cells pull in the three other images
 for the game. Although following along with the video lectures and working off of the weekly example helped exponentially,
-I still keep running into an issue in the script where it seems to not want to pull in the other images as variables, despite them being defined the actualImagePath variable. I have the suspicion that it has to do with one of the loops or variable. This error will hopefully be corrected in time for the continuation of the assignment next week.
+One recurring error I ran into was getting the other three images to display outside of the initial two that the example set up the code for. I spent a lot of time double-checking the loops and variables before realizing that the problem didn't lie with that at all. The values had been adjusted as needed. It turned out that I had made a very simple, surface-level mistake: I had only written the image names with the last three while forgetting to include the folder name. After I fixed that, everything worked fine. 
 
 On a side note, I decided to leave the comments in from the examples should I need to look back at this assignment for future
-reference to remember what to do. I hope that is alright. 
+reference to remember what to do. I hope that is alright.

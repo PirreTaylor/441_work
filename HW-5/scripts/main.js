@@ -23,7 +23,7 @@ function printBlanks()
 function createRandomImageArray()
 {
     // create an array of actual images
-    var actualImagePath = ["images/dragon.jpg", "images/fairy.jpg", "nii.jpg", "majora.jpg", "moose.jpg"];
+    var actualImagePath = ["images/dragon.jpg", "images/fairy.jpg", "images/nii.jpg", "images/majora.jpg", "images/moose.jpg"];
     // create another array to make sure the images only get added twice
     var count = [0,0,0,0,0];
     // create a while statement to check to see if our actual image array is full
