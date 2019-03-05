@@ -1,14 +1,12 @@
 var myViewFinderArray = new Array();
 
-var image1 = "images/Sea.jpg";
-
-var image2 = "images/Discovery.jpg";
 
 class ViewFinder
 {
   constructor(title)
   {
       this.title = title;
+
   }
 
   toString()
@@ -25,8 +23,8 @@ class ViewFinder
 
 function initializeArray()
 {
-    var myViewFinder = new ViewFinder("Surrealist Sealife", "image1");
-    var myViewFinder1 = new ViewFinder("The Age of Discovery", "image2");
+    var myViewFinder = new ViewFinder("Surrealist Sealife");
+    var myViewFinder1 = new ViewFinder("The Age of Discovery");
     myViewFinderArray.push(myViewFinder);
     myViewFinderArray.push(myViewFinder1);
 
