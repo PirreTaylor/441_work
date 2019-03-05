@@ -6,7 +6,7 @@ class ViewFinder
   constructor(title)
   {
       this.title = title;
-
+      
   }
 
   toString()
