@@ -6,12 +6,14 @@ class ViewFinder
   constructor(title)
   {
       this.title = title;
-      
+      this.image1 = /images/Sea.jpg;
+
   }
 
   toString()
   {
       return "Title: " + this.title;
+      return "image1: " + this.image1;
   }
 
   get theTitle()
