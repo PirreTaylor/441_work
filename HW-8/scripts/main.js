@@ -35,7 +35,7 @@ $(document).ready(function(){
     $(allWaves[0].theSelector).attr("src", allWaves[0].theImagePath);
 
     $("move").click(function(){
-      $("#waves").animate({}).animate({}).animate({}).animate({});
+      $("#waves").animate({});
 
     });
 
