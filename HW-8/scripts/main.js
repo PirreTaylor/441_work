@@ -25,7 +25,6 @@ function initializeArray()
 {
     var waves = new WavesInfo("#waves", "images/waves.png");
     allWaves.push(waves);
-
 }
 
 function moveWaves() {
