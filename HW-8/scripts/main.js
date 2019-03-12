@@ -27,21 +27,11 @@ function initializeArray()
     allWaves.push(waves);
 
 }
-$(document).ready(function(){
-    console.log(allWaves[0].toString());
-    console.log(allWaves[0].theSelector);
-    console.log(allWaves[0].theImagePath);
 
-    $(allWaves[0].theSelector).attr("src", allWaves[0].theImagePath);
-
-    $("move").click(function(){
-      $("#waves").animate({});
-
-    });
-
-});
-
-function moveSquare()
-{
-    $("#square").animate({left:250}).animate({top:400}).animate({left:0}).animate({top:300});
-}
+function moveWaves() {
+$(document).ready(function () {
+            $("button").click(function () {
+                $("#waves").animate({top: '200px'});
+            });
+        });
+      }
