@@ -1,20 +1,3 @@
-   #square {
-      width: 100px;
-      height: 100px;
-      background: red;
-      position: absolute;
-      left: 0;
-      top: 300;
-    }
-
-    .stuff{
-      background: blue;
-    }
-
-    #third{
-      background: green;
-    }
-
-    body{
-        background-color: burlywood;
-    }
+body {
+  background-color: #ffffcc;
+}
