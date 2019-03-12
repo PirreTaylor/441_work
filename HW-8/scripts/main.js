@@ -1,6 +1,6 @@
 var waveSelector = "#waves";
 var allWaves = new Array();
-class DogInfo{
+class WavesInfo{
     constructor(selector, imagePath)
     {
         this.selector = selector;
@@ -23,7 +23,7 @@ class DogInfo{
 
 function initializeArray()
 {
-    var dog = new DogInfo("#dog", "images/waves.png");
+    var waves = new WavesInfo("#waves", "images/waves.png");
     allWaves.push(waves);
 
 }
@@ -32,18 +32,10 @@ $(document).ready(function(){
     console.log(allWaves[0].theSelector);
     console.log(allWaves[0].theImagePath);
 
-    //$(allDogs[0].theSelector).src = allDogs[0].theImagePath;
-    //$("#my_image").attr("src","second.jpg");
-    $(allDogs[0].theSelector).attr("src", allDogs[0].theImagePath);
+    $(allWaves[0].theSelector).attr("src", allWaves[0].theImagePath);
 
-    $("button").click(function(){
-
-        $(".stuff").fadeOut();
-
-        $("#third").toggle();
-          // setInterval(moveSquare, 1000);
-
-       // $(allDogs[0].theSelector).fadeOut().fadeIn();
+    $("move").click(function(){
+      $("#waves").animate({}).animate({}).animate({}).animate({});
 
     });
 
