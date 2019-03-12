@@ -42,10 +42,9 @@ function accessInformation()
     //console.log(myViewFinder.toString());
     //console.log(myViewFinder.theTitle)
     document.getElementById("title").innerHTML = myViewFinderArray[0].toString();
-    document.getElementById("image").innerHTML = myViewFinderArray[0].toString();
+    document.getElementById("fillerImage").innerHTML = myViewFinderArray[0].toString();
     document.getElementById("title").innerHTML = myViewFinderArray[1].toString();
-    document.getElementById("image").innerHTML = myViewFinderArray[1].toString();
-    document.getElementById("title").innerHTML = myArray[0].theTitle;
-    document.getElementById("image").src = myArray[0].theImagePath;
+    document.getElementById("fillerImage").innerHTML = myViewFinderArray[1].toString();
+
 
 }
