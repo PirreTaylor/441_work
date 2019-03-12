@@ -30,8 +30,8 @@ class ViewFinder
 function initializeArray()
 {
   //include everything the variable will be plugging in within the parentheses of the new command
-    var myViewFinder = new ViewFinder("Surrealist Sealife", "./images/Sea.jpg");
-    var myViewFinder1 = new ViewFinder("The Age of Discovery", "./images/Discovery.jpg");
+    var myViewFinder = new ViewFinder("Surrealist Sealife", "images/Sea.jpg");
+    var myViewFinder1 = new ViewFinder("The Age of Discovery", "images/Discovery.jpg");
     myViewFinderArray.push(myViewFinder);
     myViewFinderArray.push(myViewFinder1);
 
@@ -42,9 +42,9 @@ function accessInformation()
     //console.log(myViewFinder.toString());
     //console.log(myViewFinder.theTitle)
     document.getElementById("title").innerHTML = myViewFinderArray[0].toString();
-    document.getElementById("fillerImage").innerHTML = myViewFinderArray[0].toString();
+    document.getElementById("fillerImage").src = myViewFinderArray[0].toString();
     document.getElementById("title").innerHTML = myViewFinderArray[1].toString();
-    document.getElementById("fillerImage").innerHTML = myViewFinderArray[1].toString();
+    document.getElementById("fillerImage").src = myViewFinderArray[1].toString();
 
 
 }
