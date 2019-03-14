@@ -1,3 +1,13 @@
 body {
   background-color: #ffffcc;
 }
+
+h1{
+  text-align: center;
+  color: #663300;
+}
+
+#waves2{
+  position: fixed;
+  bottom: 0px;
+}

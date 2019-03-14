@@ -6,6 +6,7 @@ class ViewFinder
   constructor(title, imagePath)
   {
     //  initialize constructors here with the this. command
+    //for this project, we need constructors for both the title and imag
       this.title = title;
       this.imagePath= imagePath;
   }
@@ -30,8 +31,8 @@ class ViewFinder
 function initializeArray()
 {
   //include everything the variable will be plugging in within the parentheses of the new command
-    var myViewFinder = new ViewFinder("Surrealist Sealife", "images/Sea.jpg");
-    var myViewFinder1 = new ViewFinder("The Age of Discovery", "images/Discovery.jpg");
+    var myViewFinder = new ViewFinder("Surrealist Sealife", "images/sea.jpg");
+    var myViewFinder1 = new ViewFinder("The Age of Discovery", "images/discovery.jpg");
     myViewFinderArray.push(myViewFinder);
     myViewFinderArray.push(myViewFinder1);
 
@@ -43,8 +44,6 @@ function accessInformation()
     //console.log(myViewFinder.theTitle)
     document.getElementById("title").innerHTML = myViewFinderArray[0].toString();
     document.getElementById("fillerImage").src = myViewFinderArray[0].toString();
-    document.getElementById("title").innerHTML = myViewFinderArray[1].toString();
-    document.getElementById("fillerImage").src = myViewFinderArray[1].toString();
 
 
 }
