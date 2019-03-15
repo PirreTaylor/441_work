@@ -7,6 +7,10 @@ h1{
   color: #663300;
 }
 
+#moveboat{
+  text-align: center;
+}
+
 #boatBox{
   position: fixed;
   bottom:438px;
