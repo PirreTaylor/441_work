@@ -7,6 +7,12 @@ h1{
   color: #663300;
 }
 
+#boatBox{
+  position: fixed;
+  bottom:438px;
+  right: 0px;
+}
+
 #waves2{
   position: fixed;
   bottom: 0px;

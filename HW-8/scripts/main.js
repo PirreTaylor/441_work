@@ -1,6 +1,6 @@
-var waveSelector = "#waves";
-var allWaves = new Array();
-class WavesInfo{
+var oceanSelector = "#ocean";
+var allOcean = new Array();
+class wavesInfo{
     constructor(selector, imagePath)
     {
         this.selector = selector;
@@ -23,14 +23,12 @@ class WavesInfo{
 
 function initializeArray()
 {
-    var waves = new WavesInfo("#waves", "images/waves.png");
-    allWaves.push(waves);
 }
 
-function moveWaves() {
+function moveBoat() {
 $(document).ready(function () {
             $("button").click(function () {
-                $("#waves").animate({top: '200px'});
+                $("#boatBox").animate({left: '200px'});
             });
         });
       }
