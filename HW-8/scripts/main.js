@@ -1,3 +1,4 @@
+
 class oceanWaves{
   constructor(imagePath)
   {
@@ -13,10 +14,8 @@ class oceanWaves{
   {
     return this.imagePath;
   }
-  animateWaves(){
-
-  }
 }
+
 
 function loadWaves(){
   var waves = new oceanWaves("images/waves2.png");
@@ -24,11 +23,12 @@ function loadWaves(){
   document.getElementById("waves2").src = waves.theimagePath;
 }
 
+
 //function moveBoat() {
 $(document).ready(function () {
         loadWaves();
             $("#moveBoat").click(function () {
-                $("#boatBox").animate({left: '-=500'});
+                $("#boatBox").animate({left: '-=1000'});
 
             });
         });
