@@ -7,17 +7,52 @@ h1{
   color: #663300;
 }
 
+#button{
+  text-align: center;
+}
+
+#title2{
+  display: none;
+}
+
+#title3{
+  display: none;
+}
+#skyBox{
+  position: fixed;
+  top: 0px;
+  z-index: -2;
+}
+
+#clouds2{
+  display: none;
+}
+
+#clouds3{
+  display: none;
+}
+
 #moveboat{
   text-align: center;
 }
 
 #boatBox{
   position: fixed;
-  bottom:438px;
+  bottom: 438px;
   right: 0px;
+  z-index: -1;
+}
+
+#bowWaves{
+  position: fixed;
+  display: none;
+  bottom: 500px;
+  right: 120px;
+  z-index: +1;
 }
 
 #waves2{
   position: fixed;
   bottom: 0px;
+  z-index: 0;
 }
