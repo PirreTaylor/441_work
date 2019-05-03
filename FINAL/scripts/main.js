@@ -32,6 +32,5 @@ function accessInformation()
 {
   document.getElementById("storyText").innerHTML = myAdventureArray[slideCounter].toString();
   slideCounter++;
-  slideCounter = 0;
   $("#storyText").fadeIn("slow");
 }
