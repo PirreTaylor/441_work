@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  background-color: #ffffcc;
+}
+
+#storyText{
+  text-align: center;
+  position: center;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+}
