@@ -75,7 +75,12 @@ function accessInformation()
 }
 
 $(document).ready(function () {
-  $("advance").click(function(){
+  $("#advance").click(function(){
+
+    $("#imageBox").hide();
+
+    $("#storyText").hide();
+
     $("#imageBox").fadeIn("slow", function(){
       $("#storyText").fadeIn();
     });
